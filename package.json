@@ -1,0 +1,46 @@
+{
+  "name": "mrcoder-file-parser",
+  "version": "1.1.1",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "homepage": "https://rahulzzcv.netlify.app",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rahul-bhatt43/mrcoder-file-parser"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "node dist/test/test.js"
+  },
+  "keywords": [
+    "file parsing",
+    "csv",
+    "xlsx",
+    "xls",
+    "xml",
+    "yaml",
+    "typescript",
+    "nodejs",
+    "file-reader",
+    "data extraction",
+    "excel-parser",
+    "yaml-parser",
+    "xml-parser",
+    "csv-parser"
+  ],
+  "author": "rahulbhatt",
+  "license": "ISC",
+  "description": "A TypeScript-based library for parsing CSV, Excel (XLSX/XLS), XML, and YAML files with a unified API.",
+  "devDependencies": {
+    "@types/js-yaml": "^4.0.9",
+    "@types/node": "^22.5.0",
+    "@types/xml2js": "^0.4.14",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "csv-parser": "^3.0.0",
+    "js-yaml": "^4.1.0",
+    "xlsx": "^0.18.5",
+    "xml2js": "^0.6.2"
+  }
+}
